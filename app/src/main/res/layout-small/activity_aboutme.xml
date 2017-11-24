@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shivam.tictactoe.aboutme">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="Developer of the game......"
+        android:textColor="#0000ff"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="15sp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="> This is Shivam Taneja"
+        android:textColor="#000000"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="5sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="> 3rd yr student "
+        android:textColor="#000000"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="15sp"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="> In UIET(PU), Chandigarh(2017)"
+        android:textColor="#000000"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="15sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="Contact me......"
+        android:textColor="#0000ff"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="15sp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="For your queries ,complaints mail me on:-"
+        android:textColor="#000000"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="15sp"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="> E mail- shivamtaneja1990@gmail.com"
+        android:textColor="#000000"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="15sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="Thank you for downloading the game......"
+        android:textColor="#0000ff"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="Keep Playing :)"
+        android:textColor="#ff0000"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="50sp"
+        android:textSize="19sp"/>
+
+
+</LinearLayout>

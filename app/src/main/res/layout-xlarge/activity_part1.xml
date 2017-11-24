@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivam.tictactoe.Part1"
+    android:orientation="vertical"
+    android:background="#6274f5">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+              android:editable="false"
+        android:layout_gravity="center_horizontal"
+         android:textSize="125sp"
+        android:padding="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+
+    />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_margin="60dp"
+       >
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:text="One Player Game"
+           android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:background="@drawable/colorbutton"
+            android:layout_marginBottom="60sp"
+            android:textSize="70sp"
+            style="?android:attr/fadingEdge"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:text="Two Player Game"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textSize="70sp"
+            style="?android:attr/fadingEdge"
+            android:background="@drawable/colorbutton"
+            />
+
+    </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=": )"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="40dp"
+    android:textSize="90sp"/>
+
+</LinearLayout>
+
+
+

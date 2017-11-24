@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string-array name="level">
+        <item>EASY </item>
+        <item>MEDIUM</item>
+        <item>DIFFICULT</item>
+    </string-array>
+    <string name="title_activity_part5">Part5</string>
+</resources>
